@@ -1,0 +1,70 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    background: transparent;
+    transition: all ease 0.5s;
+    
+}
+.black{
+    background-color: #141414;
+}
+.header--logo{
+    height: 25px;
+}
+.header--logo img{
+    height: 100%;
+}
+.header--user{
+    
+}
+.header-menu{
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    text-overflow: Ellipsis;
+    white-space: nowrap;
+    width: 400px;
+    margin-right: 600px;
+    margin-left: 40px;
+}
+.header-menu a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.header-menu2{
+    display: inline-block;
+    flex-direction: row;  
+    text-overflow: Ellipsis;
+    white-space: nowrap;
+    width: 400px;
+    margin-bottom: 25px;
+    
+}
+.header-menu2 a{
+    font-size: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-menu2 img{
+    width: 25px;
+    cursor: pointer;
+}
+.header-button{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
